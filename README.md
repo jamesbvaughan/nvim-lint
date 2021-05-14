@@ -84,7 +84,8 @@ Other dedicated linters that are built-in are:
 | [Mypy][11]                   | `mypy`         |
 | [Pylint][15]                 | `pylint`       |
 | [Revive][14]                 | `revive`       |
-| Ruby                         | `ruby`         |
+| [Ruby][32]                   | `ruby`         |
+| [RuboCop][33]                | `rubocop`      |
 | [Selene][31]                 | `selene`       |
 | [ShellCheck][10]             | `shellcheck`   |
 | [StandardRB][27]             | `standardrb`   |
@@ -303,6 +304,8 @@ nvim --headless --noplugin -u tests/minimal.vim -c "PlenaryBustedDirectory tests
 [29]: https://github.com/stylelint/stylelint
 [30]: https://github.com/KDE/clazy
 [31]: https://github.com/Kampfkarren/selene
+[32]: https://www.ruby-lang.org/en/
+[33]: https://rubocop.org/
 [null-ls]: https://github.com/jose-elias-alvarez/null-ls.nvim
 [plenary]: https://github.com/nvim-lua/plenary.nvim
 [ansible-lint]: https://docs.ansible.com/lint.html
