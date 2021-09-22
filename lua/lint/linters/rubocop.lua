@@ -21,7 +21,7 @@ return function()
   local cmd = 'rubocop'
 
   if use_bundler() then
-    cmd =  { 'bundle', 'exec', 'rubocop' }
+    cmd = 'bundle exec rubocop'
   end
 
   return {
